@@ -1,24 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_point.h                                         :+:      :+:    :+:   */
+/*   ft_strs_to_tab.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cliew <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/04 21:30:41 by cliew             #+#    #+#             */
-/*   Updated: 2023/07/05 19:18:30 by cliew            ###   ########.fr       */
+/*   Created: 2023/07/05 19:20:16 by cliew             #+#    #+#             */
+/*   Updated: 2023/07/05 20:34:28 by cliew            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_POINT
-#define FT_POINT
-
-typedef struct ss
+struct s_stock_str *ft_strs_to_tab(int ac, char**av)
 {
-	int x;
-	int y;
-} t_point;
+	int	i;
 
+	i = 0;
+	while (i < ac)
+	{
+		t_stock_str	av[i]
+	}
 
-#endif
-
+}
